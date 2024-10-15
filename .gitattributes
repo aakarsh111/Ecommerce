@@ -1,0 +1,17 @@
+# Ensure consistent line endings for text files
+* text=auto
+
+# Specific file types with LF endings (common in web projects)
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.cjs text eol=lf
+
+# Images and binaries should not have line ending conversion
+*.svg binary
+*.png binary
+*.jpg binary
